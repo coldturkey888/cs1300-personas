@@ -1,0 +1,33 @@
+.personas-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 5 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.personas-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.personas-preface {
+  max-width: 55vw;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.personas-image {
+  object-fit: contain;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+  margin-bottom: 5vh;
+}

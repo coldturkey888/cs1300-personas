@@ -1,0 +1,32 @@
+.storyboard-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 6 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.storyboard-bottom-right-corner:hover {
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.storyboard-preface {
+  max-width: 70vw;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.storyboard-image {
+  object-fit: contain;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  margin-bottom: 8vh;
+}

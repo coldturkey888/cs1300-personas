@@ -1,0 +1,70 @@
+.touchscreenui-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 3 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.touchscreenui-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
+.touchscreenui-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 85vw;
+  margin-bottom: 2rem;
+}
+
+.touchscreenui-left-image {
+  flex: 3;
+  object-fit: contain;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+}
+
+.touchscreenui-right {
+  flex: 1;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+
+.touchscreenui-right-preface {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.touchscreenui-right li {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.touchscreenui-right li span {
+  position: relative;
+  left: 10px;
+}
